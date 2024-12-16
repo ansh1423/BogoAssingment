@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BOGO Offer</title>
+  <!-- Add Google Fonts link for Inter -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/script.js" defer></script>
+  
+</head>
+<body>
+  <div class="container">
+  
+    <h1><span class="dash"></span> <span class="bogo-highlight">YAY! It's <span class="bogo-highlight">BOGO</span></span> <span class="dash"></span></h1>
+
+    <!-- 1 Unit Option -->
+    <div class="option selected" id="option1">
+      <div class="box1">
+      <input type="radio" name="units" id="one-unit" value="10" checked>
+      <label for="one-unit">
+        <div class="details">
+          <div>
+            <span class="unit-text">1 Unit</span>
+            <span class="discount">10% Off</span>
+            <p class="standard-price">Standard Price</p>
+          </div>
+      
+          <div class="price-section">
+            <span class="price">$10.00 USD</span>
+            <span class="original-price">$24.00 USD</span>
+          </div>
+        </div>
+        </div>
+      </label>
+      <div class="product-options-container">
+        <div class="product-option-row">
+          <span class="product-label">#1</span>
+          <div class="dropdown-wrapper">
+            <label for="size1" class="dropdown-label">Size</label>
+            <select id="size1" class="dropdown-select size-selector">
+              <option>S</option>
+              <option>M</option>
+              <option>L</option>
+            </select>
+          </div>
+          <div class="dropdown-wrapper">
+            <label for="colour1" class="dropdown-label">Colour</label>
+            <select id="colour1" class="dropdown-select colour-selector">
+              <option>Black</option>
+              <option>White</option>
+              <option>Red</option>
+            </select>
+          </div>
+        </div>
+        <div class="product-option-row">
+          <span class="product-label">#2</span>
+          <div class="dropdown-wrapper">
+            <select id="size2" class="dropdown-select size-selector">
+              <option>S</option>
+              <option>M</option>
+              <option>L</option>
+            </select>
+          </div>
+          <div class="dropdown-wrapper">
+            <select id="colour2" class="dropdown-select colour-selector">
+              <option>Black</option>
+              <option>White</option>
+              <option>Red</option>
+            </select>
+          </div>
+        </div>
+      </div>
+      
+    </div>
+  
+    <!-- 2 Unit Option -->
+    <div class="option" id="option2">
+      <div class="most-popular">MOST POPULAR</div>
+      <div class="dibbu">
+        <input type="radio" name="units" id="two-unit" value="18">
+        <label for="two-unit">
+          <div class="details">
+            <div>
+              <span class="unit-text">2 Unit</span>
+              <span class="discount">20% Off</span>
+            </div>
+            <div class="price-section">
+              <span class="price">$18.00 USD</span>
+              <span class="original-price">$24.00 USD</span>
+            </div>
+          </div>
+        </label>
+      </div>
+      <div class="options-container">
+        <div class="option-row">
+          <span class="first">#1</span>
+          <div class="dropdown-container">
+            <label for="size1">Size</label>
+            <select id="size1" class="size-dropdown">
+              <option>S</option>
+              <option>M</option>
+              <option>L</option>
+            </select>
+          </div>
+          <div class="dropdown-container">
+            <label for="colour1">Colour</label>
+            <select id="colour1" class="colour-dropdown">
+              <option>Black</option>
+              <option>White</option>
+              <option>Red</option>
+            </select>
+          </div>
+        </div>
+        <div class="option-row">
+          <span>#2</span>
+          <div class="dropdown-container">
+            <!-- <label for="size2">Size</label> -->
+            <select id="size2" class="size-dropdown">
+              <option>S</option>
+              <option>M</option>
+              <option>L</option>
+            </select>
+          </div>
+          <div class="dropdown-container">
+            <!-- <label for="colour2">Colour</label> -->
+            <select id="colour2" class="colour-dropdown">
+              <option>Black</option>
+              <option>White</option>
+              <option>Red</option>
+            </select>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    
+
+    <!-- 3 Unit Option -->
+    <div class="option" id="option3">
+      <div class="box1">
+        <input type="radio" name="units" id="three-unit" value="24">
+        <label for="three-unit">
+          <div class="details">
+            <div>
+              <span class="unit-text">3 Unit</span>
+              <span class="discount">30% Off</span>
+            </div>
+    
+            <div class="price-section">
+              <span class="price">$24.00 USD</span>
+              <span class="original-price">$24.00 USD</span>
+            </div>
+          </div>
+        </label>
+      </div>
+    
+      <!-- Selections for Size and Colour, initially hidden -->
+      <div class="selections-container" style="display: none;">
+        <div class="selection-row">
+          <span class="label-first">#1</span>
+          <div class="dropdown-wrapper">
+            <label for="dimension1">Size</label>
+            <select id="dimension1" class="dimension-dropdown">
+              <option>S</option>
+              <option>M</option>
+              <option>L</option>
+            </select>
+          </div>
+          <div class="dropdown-wrapper">
+            <label for="shade1">Colour</label>
+            <select id="shade1" class="shade-dropdown">
+              <option>Black</option>
+              <option>White</option>
+              <option>Red</option>
+            </select>
+          </div>
+        </div>
+        <div class="selection-row">
+          <span class="label-second">#2</span>
+          <div class="dropdown-wrapper">
+            <select id="dimension2" class="dimension-dropdown">
+              <option>S</option>
+              <option>M</option>
+              <option>L</option>
+            </select>
+          </div>
+          <div class="dropdown-wrapper">
+            <select id="shade2" class="shade-dropdown">
+              <option>Black</option>
+              <option>White</option>
+              <option>Red</option>
+            </select>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+
+    <div class="ansh">
+      <p class="free-delivery">Free Delivery</p>
+      <div class="total">Total: <span id="total">$10.00 USD</span></div>
+    </div>
+    <button id="add-to-cart">+ Add to Cart</button>
+    <div class>
+
+<p class="powered-by">@Powered by Pumper</p>
+  </div>
+  </div>
+   
+</body>
+</html>
